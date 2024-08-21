@@ -67,6 +67,10 @@ To set the actual theme and automagically re-create the initramfs:
 plymouth-set-default-theme laptop -R
 `
 
+You will not be able to do this without all of the parts of Plymouth that were not included with your binaries... for some reason.
+`
+sudo yum install plymouth-plugin-script
+`
 
 ![Linux-Laptop-Bootscreen-with-LUKS-lock-on-it](/images-for-repo/animated-laptop-bootloader-with-password-lock.png)
 
